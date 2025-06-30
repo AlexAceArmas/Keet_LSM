@@ -4,9 +4,8 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Analyzing and creating modelswith Keet
-
-## Project Organization
+Analizando y creando modelos con Keet
+## Organización del proyecto
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen

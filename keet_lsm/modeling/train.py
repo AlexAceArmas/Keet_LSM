@@ -1,5 +1,5 @@
 from pathlib import Path
-
+import torch
 from loguru import logger
 from tqdm import tqdm
 import typer
@@ -19,7 +19,7 @@ def main(
 ):
     # ---- REPLACE THIS WITH YOUR OWN CODE ----
     logger.info("Training some model...")
-    for i in tqdm(range(10), total=10):
+    for i in tqdm(range(100), total=10):
         if i == 5:
             logger.info("Something happened for iteration 5.")
     logger.success("Modeling training complete.")
